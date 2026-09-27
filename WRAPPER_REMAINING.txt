@@ -1,0 +1,11 @@
+Wrapper status:
+- gradlew: added
+- gradlew.bat: added
+- gradle/wrapper/gradle-wrapper.properties: added for Gradle 9.6.0
+- gradle/wrapper/gradle-wrapper.jar: NOT added because the official binary could not be downloaded/generated in this environment.
+
+To finish the official wrapper on a machine with Gradle 9.6.0 installed:
+  gradle wrapper --gradle-version 9.6.0
+Then run:
+  ./gradlew --version
+  ./gradlew assembleDebug
