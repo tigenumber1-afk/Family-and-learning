@@ -1,0 +1,18 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.arabickids.learn'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'com.arabickids.learn'
+        minSdk 23
+        targetSdk 36
+        versionCode 12
+        versionName '2.2.0'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
